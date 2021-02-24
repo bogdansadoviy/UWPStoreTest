@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="UWPStoreTest.Views.MenuItem2Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPStoreTest.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Image Grid.RowSpan="6" Stretch="Fill" Source="/Images/3.png" />
+
+        <Button
+            CornerRadius="25" 
+            Grid.Row="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left"
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            Content="BACK"
+            Width="280"
+            Height="60"
+            Margin="40,40,0,0"
+            Background="#FFCF3F23"
+            Click="Back_Click" 
+            FontWeight="Bold" 
+            FontSize="40" 
+            FontFamily="Arial Black" >
+
+        </Button>
+
+
+    </Grid>
+</Page>
