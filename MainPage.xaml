@@ -22,11 +22,16 @@
                 <Setter Property="Background" Value="#FFD03F23"/>
                 <Setter Property="FontSize" Value="30"/>
                 <Setter Property="FontWeight" Value="Bold"/>
-                <Setter Property="Height" Value="70"/>
+                <Setter Property="Height" Value="65"/>
             </Style>
         </Grid.Resources>
         
         <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
@@ -39,40 +44,86 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Image Stretch="UniformToFill" Grid.RowSpan="2" Grid.ColumnSpan="5" Source="/Images/111.png" />
-
-        <Button 
-            Grid.Row="0"
-            Grid.Column="1"
-            x:Name="Button1"
-            Content="Coupons"
-            Click="Button_Click1"
-            VerticalAlignment="Bottom">
-        </Button>
-
-        <Button 
-            Grid.Row="0"
-            Grid.Column="3"
-            x:Name="Button2"
-            Content="Free Delivery"
-            Click="Button_Click2"
-            VerticalAlignment="Bottom">
-        </Button>
+        <Image Stretch="UniformToFill" Grid.RowSpan="7" Grid.ColumnSpan="5" Source="/Images/111.png" />
 
         <Button 
             Grid.Row="1"
             Grid.Column="1"
+            x:Name="Button1"
+            Content="Coupons"
+            Click="Button_Click1">
+        </Button>
+
+        <Button 
+            Grid.Row="1"
+            Grid.Column="3"
+            x:Name="Button2"
+            Content="Sale Dates"
+            Click="Button_Click2">
+        </Button>
+
+        <Button 
+            Grid.Row="2"
+            Grid.Column="1"
             x:Name="Button3"
-            Content="Buyer Protection"
+            Content="Featured Categories"
             Click="Button_Click3">
         </Button>
 
         <Button 
-            Grid.Row="1"
+            Grid.Row="2"
             Grid.Column="3"
             x:Name="Button4"
-            Content="Mobile App"
+            Content="Free Delivery"
             Click="Button_Click4">
+        </Button>
+
+        <Button 
+            Grid.Row="3"
+            Grid.Column="1"
+            x:Name="Button5"
+            Content="Mobile App"
+            Click="Button_Click5">
+        </Button>
+
+        <Button 
+            Grid.Row="3"
+            Grid.Column="3"
+            x:Name="Button6"
+            Content="Video Instruction"
+            Click="Button_Click6">
+        </Button>
+
+        <Button 
+            Grid.Row="4"
+            Grid.Column="1"
+            x:Name="Button7"
+            Content="How to fill in the address"
+            Click="Button_Click7">
+        </Button>
+
+        <Button 
+            Grid.Row="4"
+            Grid.Column="3"
+            x:Name="Button8"
+            Content="Tracking"
+            Click="Button_Click8">
+        </Button>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            x:Name="Button9"
+            Content="Buyer Protection"
+            Click="Button_Click9">
+        </Button>
+
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            x:Name="Button10"
+            Content="Cashback"
+            Click="Button_Click10">
         </Button>
 
 

@@ -9,7 +9,7 @@
   <Identity
     Name="7655ShopSale.AliexpressShoppingGuides"
     Publisher="CN=70B2C017-3199-4932-8611-CF587E4BD3BC"
-    Version="1.0.1.0" />
+    Version="1.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="fd0aff3a-fbec-4407-9e98-e57bb4274077" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

@@ -86,6 +86,37 @@ namespace UWPStoreTest
             Frame.Navigate(typeof(MenuItem4Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
         }
 
+        private void Button_Click5(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem5Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+        private void Button_Click6(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem6Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+        private void Button_Click7(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem7Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+        private void Button_Click8(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem8Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+        private void Button_Click9(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem9Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+        private void Button_Click10(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MenuItem10Page), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+        }
+
+
 
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
         {
@@ -102,7 +133,10 @@ namespace UWPStoreTest
                 launchURI();
             }
 
+
             base.OnNavigatedTo(e);
         }
+
+
     }
 }

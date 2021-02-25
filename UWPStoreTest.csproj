@@ -131,6 +131,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MenuItem10Page.xaml.cs">
+      <DependentUpon>MenuItem10Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MenuItem2Page.xaml.cs">
       <DependentUpon>MenuItem2Page.xaml</DependentUpon>
     </Compile>
@@ -143,6 +146,21 @@
     <Compile Include="Views\MenuItem4Page.xaml.cs">
       <DependentUpon>MenuItem4Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MenuItem5Page.xaml.cs">
+      <DependentUpon>MenuItem5Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuItem6Page.xaml.cs">
+      <DependentUpon>MenuItem6Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuItem7Page.xaml.cs">
+      <DependentUpon>MenuItem7Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuItem8Page.xaml.cs">
+      <DependentUpon>MenuItem8Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuItem9Page.xaml.cs">
+      <DependentUpon>MenuItem9Page.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -150,18 +168,24 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\HowtoUseAliExpress.mp4" />
     <Content Include="Assets\Splash01.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-400.png" />
     <Content Include="Assets\Square310x310Logo.scale-200.png" />
     <Content Include="Assets\Square71x71Logo.scale-200.png" />
-    <Content Include="Images\0.png" />
-    <Content Include="Images\11.png" />
     <Content Include="Images\111.png" />
-    <Content Include="Images\2.png" />
-    <Content Include="Images\3.png" />
-    <Content Include="Images\4.png" />
-    <Content Include="Images\5.png" />
     <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Images\a.png" />
+    <Content Include="Images\b.png" />
+    <Content Include="Images\back.png" />
+    <Content Include="Images\c.png" />
+    <Content Include="Images\d.png" />
+    <Content Include="Images\e.png" />
+    <Content Include="Images\f.png" />
+    <Content Include="Images\g.png" />
+    <Content Include="Images\h.png" />
+    <Content Include="Images\i.png" />
+    <Content Include="Images\j.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -180,6 +204,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\MenuItem10Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MenuItem2Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -193,6 +221,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\MenuItem4Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuItem5Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuItem6Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuItem7Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuItem8Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuItem9Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
